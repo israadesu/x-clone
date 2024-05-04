@@ -28,7 +28,6 @@ model User{
   updatedAt DateTime @updatedAt
   followingIds String[] @db.ObjectId
   hasNotification Boolean?
-
   posts Post[]
   comments Comment []
   notifications Notification[]
